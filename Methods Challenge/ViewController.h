@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+-(void)printNum:(int)num;
+-(void)printFrom:(int)start to:(int)finish;
 
 @end
 
